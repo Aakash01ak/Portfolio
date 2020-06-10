@@ -1,0 +1,345 @@
+
+body{
+	background:#f791fa;
+	background-position: center;
+	background-size: cover;
+	font-family: "Baloo Tamma 2";
+	font-size: 18px;
+}
+li h4{
+	border-bottom: 2px solid black;
+	padding-bottom: 3px;
+	font-weight: 600;
+    font-size: 27px
+}
+hr{
+	border-top: 3px double #8c8b8b;
+}
+h1{
+ font-size: 70px;
+ font-weight: 700;
+}
+
+.heading:hover{
+	text-shadow: 4px 4px rgb(125, 125, 125);
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 28px; 
+  right: 26px; 
+  z-index: 3000; 
+  border: none; 
+  outline: none; 
+  background-color: red; 
+  color: white; 
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 28px; 
+  
+}
+#myBtn:hover {
+  box-shadow: 0 6px #999; 
+}
+
+
+/*Navbar*/
+li{
+	padding: 0 12px;
+}
+li a:hover {
+     border-bottom: 2px solid red;
+     padding-bottom: 4.5px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+}
+.navbar-brand img{
+	height: 40px;
+	width: 65px;
+	margin: 0;
+	box-shadow: 7px 7px red;
+}
+
+
+
+
+/*home*/
+.name{
+	color: #d64f3a;
+}
+h2{
+	font-weight: 600;
+	font-size: 38px;
+}
+#home{
+	background: rgba(242, 153, 168, 1.0);
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.content{
+	margin: 150px 40px 150px 50px;
+	text-align: center;
+	color: black;
+}
+#frontpro{
+	width: 500px;
+	height: 660px;
+	margin: 80px 50px 80px 10px;
+	margin-top: 67px;
+	float: left;
+}
+.power{
+	font-size: 45px;
+	font-weight: 600;
+    color: #3a40e8; 
+}
+
+/*About*/
+.about{
+	margin: 65px 0;
+}
+#pro{
+	height: 670px;
+	width: 520px;
+	margin-top: 35px;
+	margin-bottom: 0;
+	padding-right: 50px;
+}
+#about_me{
+	padding: 15px 0 0 0;
+}
+.para{
+	font-size: 20px;
+	color: #45494f;
+	font-weight: 600;
+}
+.intro{
+	border-left: 5px solid red;
+	padding-left: 0;
+}
+.info{
+	color: #45494f;
+	font-size: 20px;
+	font-weight: 600;
+}
+#me{
+	margin-left: 40px;
+	font-size: 19px;
+}
+.table#me td{
+	padding: 0;
+	padding-right: 25px;
+	padding-bottom: 4px;
+}
+
+
+
+/*academic*/
+#academic{
+	margin: 60px 0 60px 0; 
+}
+.table h4{
+   border-bottom: 2px solid black;
+   padding-bottom: 3px;	
+   font-weight: 600;
+   font-size: 27px;
+}
+
+
+
+/*Skills*/
+#skills{
+	padding: 50px 0;
+}
+.prop{
+	color: black;
+}
+
+
+/*Contacts*/
+#contacts{
+	padding: 70px 0;
+}
+
+.con h5{
+	font-size: 22px;
+	font-weight: 600;
+}
+.p{
+	padding-top: 15px;
+}
+.pa{
+	color: rgba(125, 125, 125, 1.0);
+}
+.con{
+     border: 1px solid white;
+     background: white;
+     width: 87%;
+     margin-left: 25px;
+     margin-bottom: 35px;
+     height: 260px;
+     box-shadow: 20px 20px 9px rgb(125, 125, 125);
+}
+.con:hover{
+	border:2px solid grey;
+	box-shadow: 22px 22px 11px rgb(125, 125, 125);
+}
+.icon{
+	 font-size: 40px;
+     margin:10px auto;
+     padding: 15px auto;
+     height: 95px;
+     width: 95px;
+     padding-left: 35px;
+     background: blue;
+     border-radius: 50%;
+     color: white;
+}
+.icon1{
+	padding-left: 35px;
+	padding-top: 22px;
+}
+.icon2{
+	padding-left: 31px;
+	padding-top: 23px;
+}
+.icon3{
+	padding-left: 27px;
+	padding-top: 21px;
+}
+.icon4{
+	padding-left: 31px;
+	padding-top: 20px;
+}
+
+/*footer*/
+#footer{
+	background: black;
+	color: white;
+	padding: 70px 0;
+	width: 100%;
+}
+.foot_icon img{
+   width: 36px;
+   height: 36px; 
+}
+.foot_icon img:hover{
+  opacity: 0.5;
+}
+.foot{
+   width: 30%;
+   margin:1.66%; 
+   padding-left: 15px;
+}
+.quick{
+	font-size: 21px;
+}
+.icons_uni{
+	padding-left: 45px;
+}
+.foot_contact{
+	font-size: 19.5px;
+}
+.foot h3{
+	padding-bottom: 39px;
+	text-shadow: 1px 1px rgb(125, 125, 125);
+}
+.foot h3:hover{
+	text-shadow: 2px 2px red;
+}
+
+.navbar-toggler{
+    margin-right: 20px;
+
+}
+.navName{
+	font-size: 24px;
+	font-weight: 600;
+	color: red;
+}
+
+@media only screen and (max-width:992px){
+
+   li a:hover{
+   	    border: none;
+        text-shadow: 1px 1px grey;
+       }
+    #frontpro{
+    	display: none;
+    }
+     .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+     .navbar-toggler-icon {
+    border: 2px solid black;
+    width: 45px;
+    margin-top:6px;
+    margin-bottom:3px;
+    outline:none;
+  }
+   html {
+      	width: 100%;
+      }
+      body {
+         width: 100%;
+         padding-right: 0;
+         margin-right: 0;
+      }
+  
+    
+}
+
+
+@media only screen and (max-width:360px){
+     
+     h1{
+		 font-size: 44px;
+		 font-weight: 600;
+      }
+      #sem{
+      	width: 100%;
+      }
+      #home{
+      	width:105%;
+      	height: 700px; 
+      }
+      .content{
+      	margin-top: 110px;
+      }
+      #pro{
+           width: 100%;
+           padding-right: 0;
+      }
+     
+      .navName{
+		font-size: 26px;
+	}
+	.info{
+	color: #45494f;
+	font-size: 17px;
+	font-weight: 600;
+    }
+    #school{
+    	width: 92%;
+    }
+    #footer{
+    	width: 107%;
+    }
+    #qualifi{
+    	font-size: 28px;
+    }
+   #myBtn{
+       right:52px;
+   }
+   #current{
+       text-align:left;
+   }
+  
+
+}
